@@ -3,8 +3,12 @@
     android:orientation="horizontal"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:minWidth="224dp"
-    android:minHeight="320dp"
+    android:minWidth="182dp"
+    android:minHeight="312dp"
+    android:paddingTop="4dp"
+    android:paddingBottom="4dp"
+    android:paddingRight="8dp"
+    android:paddingLeft="8dp"
     android:background="#333333" >
 
     <!-- minHeight 56 (4 48 8 48 8 48 8 48 4) = 224 -->
@@ -15,19 +19,23 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:orientation="vertical"
+        android:layout_marginRight="16dp"
         android:layout_weight="1" >
 
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="18sp"
             android:id="@+id/yearText"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="24sp"
             android:id="@+id/dateText"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
+            android:textSize="18sp"
             android:id="@+id/weekText"/>
         <TextView
             android:layout_width="match_parent"
