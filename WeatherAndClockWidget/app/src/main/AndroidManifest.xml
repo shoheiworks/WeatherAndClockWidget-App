@@ -4,7 +4,7 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@drawable/ic_launcher"
+        android:icon="@drawable/icon"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
@@ -16,6 +16,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <receiver
+            android:name="com.designseisaku.weatherandclockwidget.WidgetProvider"
+            android:exported="false"
+            android:label="WidgetApp" >
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <meta-data
+                android:name="android.appwidget.provider"
+                android:resource="@xml/widget" />
+        </receiver>
     </application>
 
 </manifest>
