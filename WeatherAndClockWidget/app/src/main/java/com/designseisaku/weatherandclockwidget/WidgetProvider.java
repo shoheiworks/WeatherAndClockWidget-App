@@ -1,5 +1,8 @@
 package com.designseisaku.weatherandclockwidget;
 
 
-public class WidgetProvider {
+import android.appwidget.AppWidgetProvider;
+
+public class WidgetProvider extends AppWidgetProvider {
+
 }
