@@ -1,0 +1,21 @@
+
+・サイズ変更：縦に2倍 1sizeOnly
+
+・時間を表示＆更新 17:25 24h
+
+・天気を表示＆更新
+・日付を表示＆更新 ex:2015.feb.28 or 2015.1.28
+・Layoutを調整
+・iconfontの準備＆設置＆適用 BitMap canvas
+
+・HelloWidget + weatherAPI ＝ 新しくプロジェクトを作成
+・Volleyの追加 Maven
+
+・背景をグラデーションする
+・Setting を作る SharedPreference http://qiita.com/BD1-FM/items/f8ea90a7538234add288
+簡易的な保存 Ex:Setting
+
+ok
+widgetを表示
+天気を取得
+
