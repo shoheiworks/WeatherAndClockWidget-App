@@ -12,7 +12,7 @@ public class WidgetProvider extends AppWidgetProvider {
     Calendar calendar = Calendar.getInstance();
 
     String[] monthSet ={"JANUARY", "FEBRUARY"};
-    String[] weekSet = {"MonDay","TuesDay","WednesDay","ThursDay","FriDay","SaturDay","SunDay"};
+    String[] weekSet = {"","SunDay","MonDay","TuesDay","WednesDay","ThursDay","FriDay","SaturDay"};
 
     String year = Integer.toString(calendar.get(Calendar.YEAR));
     final int month = calendar.get(Calendar.MONTH);
