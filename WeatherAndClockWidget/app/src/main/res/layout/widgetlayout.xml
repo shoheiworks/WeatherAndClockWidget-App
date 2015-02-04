@@ -53,26 +53,34 @@
         <!-- icon -->
         <ImageView
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
+            android:layout_height="wrap_content"
             android:src="@drawable/ic_launcher"
             android:layout_weight="1" />
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:layout_weight="1"
             android:orientation="vertical">
-            <!-- 天気 / 気温 -->
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="天気 / 気温"
-                android:layout_weight="1"/>
             <!-- 場所 -->
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:text="場所"
-                android:id="@+id/titleTextV"
+                android:layout_height="wrap_content"
+                android:text="福岡市の天気"
+                android:id="@+id/cityTextV"
                 android:layout_weight="1"/>
+            <!-- 天気 / 気温 -->
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/telop_temperature"
+                android:text="天気 / 気温"
+                android:layout_weight="1"/>
+            <Button
+                android:layout_width="12dp"
+                android:layout_height="12dp"
+                android:layout_weight="1"
+                android:id="@+id/reloadBtn"/>
+
         </LinearLayout>
 
 

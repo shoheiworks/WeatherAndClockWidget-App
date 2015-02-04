@@ -3,6 +3,6 @@
     android:initialLayout="@layout/widgetlayout"
     android:minHeight="40dp"
     android:minWidth="250dp"
-    android:resizeMode="vertical"
-    android:updatePeriodMillis="3000" > <!--更新時間 3s -->
+    android:resizeMode="vertical">
+    <!--android:updatePeriodMillis="3000" --> <!--更新時間 3s min 1800000 &ndash;&gt;-->
 </appwidget-provider>
